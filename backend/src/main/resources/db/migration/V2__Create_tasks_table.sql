@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS tasks (
+    id BIGSERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    status VARCHAR(50) NOT NULL DEFAULT 'TODO',
+    user_id BIGINT NOT NULL
+);
+
+ALTER TABLE tasks ADD CONSTRAINT fk_task_user 
+FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE;
