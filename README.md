@@ -63,7 +63,7 @@ The application utilizes a decoupled client-server architecture:
 
 ---
 
-## Component Architecture (Frontend)
+## Component Architecture 
 ## 📂 Project Structure
 ```text
 /week8-task-manager-fullstack
