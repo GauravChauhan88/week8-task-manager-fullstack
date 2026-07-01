@@ -355,3 +355,15 @@ All endpoints (except `/api/auth/**`) are secured and require a valid JWT passed
 * **Description:** Permanently removes a task from the database.
 
 * **Success Response (204 No Content):** (No body returned upon successful deletion)
+
+---
+
+## 🎓 About the Developer
+
+Name: Gaurav Chauhan   
+
+
+Education: BCA+MCA Dual Degree, Amity University Noida (2027)   
+
+Focus: Full-Stack Development, Data Analytics, and Cloud Computing
+
